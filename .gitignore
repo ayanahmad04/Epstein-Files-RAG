@@ -1,2 +1,18 @@
-/.env
-/__pycache__
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# ChromaDB database
+chroma_db/
+
+# Ignore data files
+data/*.json
+
+# OS files
+.DS_Store
+
+# VSCode settings (optional)
+.vscode/

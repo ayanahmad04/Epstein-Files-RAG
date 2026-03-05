@@ -7,8 +7,8 @@ def hash_text(t):
 
 def create_chunks(input_path="data/cleaned.json",
                   output_path="data/chunks.json",
-                  chunk_size=400,
-                  overlap=80):
+                  chunk_size=1200,
+                  overlap=150):
 
     with open(input_path, "r", encoding="utf-8") as f:
         docs = json.load(f)
