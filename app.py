@@ -5,7 +5,7 @@ import requests
 # Page configuration
 # -----------------------------
 st.set_page_config(
-    page_title="RAG Document Search",
+    page_title="Epstein-Files RAG ",
     page_icon="📚",
     layout="centered"
 )
@@ -105,7 +105,7 @@ html, body, [class*="css"]  {
 # -----------------------------
 # Header
 # -----------------------------
-st.markdown("<div class='title'>📚 Document RAG Search</div>", unsafe_allow_html=True)
+st.markdown("<div class='title'>📚 Epstein-Files RAG </div>", unsafe_allow_html=True)
 
 st.markdown(
     "<div class='subtitle'>Ask questions grounded in the document knowledge base</div>",
